@@ -1,0 +1,50 @@
+defaultPlacement: end
+fieldLayouts:
+  d08541a3-26bd-42e3-9364-09133c3b2782:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 16e9012e-6f55-4868-8a66-501397628802 # Custom Description
+            instructions: ''
+            label: Description
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: kategori
+name: Kategori
+siteSettings:
+  9186e763-3071-416b-aa22-77e22be0bb2d: # Nyanyian Surga
+    hasUrls: true
+    template: null
+    uriFormat: 'kategori/{slug}'
+structure:
+  maxLevels: null
+  uid: 66f07bad-c560-40f2-a60c-148376ad8c19

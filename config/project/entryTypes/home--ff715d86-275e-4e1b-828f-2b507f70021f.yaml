@@ -1,0 +1,89 @@
+fieldLayouts:
+  daf06a6b-e201-404f-9bf5-f410f9e52030:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: f74e85c6-8682-45e9-81b3-34d8abaeb6e7 # Custom Title
+            instructions: ''
+            label: Title
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 16e9012e-6f55-4868-8a66-501397628802 # Custom Description
+            instructions: ''
+            label: Description
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Detail
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: c070fb45-2321-447d-961a-6baf7e632d60 # Banner
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            type: craft\fieldlayoutelements\HorizontalRule
+          -
+            fieldUid: 871d322a-a275-41af-8940-f86a24bb50a6 # Popular Album
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 3458a78a-a619-4cdc-b887-9e233a2db833 # Popular Lyric
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 2
+handle: home
+hasTitleField: false
+name: Home
+section: 650dfe09-7020-44be-92c6-971c03a33279 # Home
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

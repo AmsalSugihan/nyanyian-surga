@@ -1,0 +1,67 @@
+field: 871d322a-a275-41af-8940-f86a24bb50a6 # Popular Album
+fieldLayouts:
+  e097eb88-2e0e-49c0-bb45-ef447d164fe3:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 3e9a31d3-e3df-425f-9183-dfd0ef0d2bfe # Main Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 9181cdfd-96f2-4c68-bc66-8dd704a1daf6 # Secondary Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  3e9a31d3-e3df-425f-9183-dfd0ef0d2bfe: # Main Text
+    columnSuffix: hkilkrrb
+    contentColumnType: text
+    fieldGroup: null
+    handle: mainText
+    instructions: ''
+    name: 'Main Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  9181cdfd-96f2-4c68-bc66-8dd704a1daf6: # Secondary Text
+    columnSuffix: alwarevr
+    contentColumnType: text
+    fieldGroup: null
+    handle: secondaryText
+    instructions: ''
+    name: 'Secondary Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText

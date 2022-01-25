@@ -1,0 +1,80 @@
+fieldLayouts:
+  d72f7ee1-ae4c-4712-bb2f-6ead50bacc91:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 16e9012e-6f55-4868-8a66-501397628802 # Custom Description
+            instructions: ''
+            label: Description
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            type: craft\fieldlayoutelements\HorizontalRule
+          -
+            fieldUid: 01d2620e-2b65-4fc3-ad75-7fa9da516c7e # Kategori
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+          -
+            fieldUid: 6fd76c91-7ce2-47cd-955b-087dcd2c81c4 # Kidung
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 50
+        name: Detail
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: a185f2b9-54ad-4fb8-b82b-af8804730d7e # Lyric
+            instructions: ''
+            label: ''
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 2
+handle: lagu
+hasTitleField: true
+name: Lagu
+section: b6ca8d73-b9b5-4005-a13d-84a010bdf932 # Lagu
+sortOrder: 2
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

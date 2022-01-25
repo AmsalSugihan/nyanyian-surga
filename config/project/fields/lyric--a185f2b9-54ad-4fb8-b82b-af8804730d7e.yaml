@@ -1,0 +1,16 @@
+columnSuffix: agrjtavd
+contentColumnType: string
+fieldGroup: ffd2cfe8-bb52-465e-93ed-fc6bc9af908e # Common
+handle: lyric
+instructions: ''
+name: Lyric
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_lyric}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

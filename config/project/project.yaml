@@ -1,0 +1,62 @@
+dateModified: 1643111496
+email:
+  fromEmail: admin@gmail.com
+  fromName: 'Nyanyian Surga'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0e49d1ef-9990-4158-b456-2383238d94e0: 'Main Text' # Main Text
+    1a7d2d9f-a304-4af7-b3da-7a8d6b6cab7e: Nomor # Nomor
+    01d2620e-2b65-4fc3-ad75-7fa9da516c7e: Kategori # Kategori
+    2a061694-ae48-4141-b0c9-bbecc960c229: Number # Number
+    3e9a31d3-e3df-425f-9183-dfd0ef0d2bfe: 'Main Text' # Main Text
+    3f7d4197-4e68-40ca-86ca-c0357cdb4628: Images # Images
+    4e47dfa9-5dcc-4870-a8d3-e75ae50d2937: Bait # Bait
+    6b281e7a-2b6a-4385-bc47-3bc3a1d99412: 'Nyanyian Surga' # Nyanyian Surga
+    6fd76c91-7ce2-47cd-955b-087dcd2c81c4: Kidung # Kidung
+    16e9012e-6f55-4868-8a66-501397628802: 'Custom Description' # Custom Description
+    39b8fc54-87d2-4fea-a0b1-f3c967a7ca49: Lirik # Lirik
+    43aad4c8-e052-48d7-be06-219aace50e69: Kidung # Kidung
+    44dd785d-1cf0-439d-ab55-abb3542a1f2a: Lirik # Lirik
+    237bb018-16d4-4522-ab2f-5e429654b3ac: Kategori # Kategori
+    650dfe09-7020-44be-92c6-971c03a33279: Home # Home
+    871d322a-a275-41af-8940-f86a24bb50a6: 'Popular Album' # Popular Album
+    3458a78a-a619-4cdc-b887-9e233a2db833: 'Popular Lyric' # Popular Lyric
+    9181cdfd-96f2-4c68-bc66-8dd704a1daf6: 'Secondary Text' # Secondary Text
+    9186e763-3071-416b-aa22-77e22be0bb2d: 'Nyanyian Surga' # Nyanyian Surga
+    141058d7-d366-41fe-b12f-765432ac8c83: Image # Image
+    51157094-ba33-4073-80b7-6bc155de0539: Lagu # Lagu
+    a185f2b9-54ad-4fb8-b82b-af8804730d7e: Lyric # Lyric
+    b6ca8d73-b9b5-4005-a13d-84a010bdf932: Lagu # Lagu
+    c00caedc-9fc8-43d8-8e02-26a586934f07: Nomor # Nomor
+    c070fb45-2321-447d-961a-6baf7e632d60: Banner # Banner
+    ccffd80f-89dd-4393-8eed-9d59c74e6455: 'Secondary Text' # Secondary Text
+    e0d0af34-530a-4a46-aab6-798a2a9939db: 'Secondary Text' # Secondary Text
+    e0018da9-7ddc-47f9-9829-2610640f37c4: 'Main Text' # Main Text
+    e3eb2b29-4b25-4872-bfef-7cbe1267f05f: Reff # Reff
+    e232f51e-08ff-4a8c-b309-cf717a200f4d: 'Custom Short Description' # Custom Short Description
+    ea5dc787-f805-4ea5-958d-b7aad53fec52: Image # Image
+    f74e85c6-8682-45e9-81b3-34d8abaeb6e7: 'Custom Title' # Custom Title
+    ff715d86-275e-4e1b-828f-2b507f70021f: Home # Home
+    ffd2cfe8-bb52-465e-93ed-fc6bc9af908e: Common # Common
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.2.1
+system:
+  edition: solo
+  live: true
+  name: 'Nyanyian Surga'
+  schemaVersion: 3.7.8
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

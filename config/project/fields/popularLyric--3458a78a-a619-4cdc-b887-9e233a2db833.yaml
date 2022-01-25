@@ -1,0 +1,20 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: ffd2cfe8-bb52-465e-93ed-fc6bc9af908e # Common
+handle: popularLyric
+instructions: ''
+name: 'Popular Lyric'
+searchable: false
+settings:
+  contentTable: '{{%stc_popularlyric}}'
+  fieldLayout: matrix
+  maxRows: ''
+  minRows: ''
+  placeholderKey: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: ''
+  staticField: '1'
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField
