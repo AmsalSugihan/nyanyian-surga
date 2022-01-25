@@ -1,4 +1,4 @@
-dateModified: 1643111496
+dateModified: 1643123354
 email:
   fromEmail: admin@gmail.com
   fromName: 'Nyanyian Surga'
@@ -11,6 +11,7 @@ meta:
     2a061694-ae48-4141-b0c9-bbecc960c229: Number # Number
     3e9a31d3-e3df-425f-9183-dfd0ef0d2bfe: 'Main Text' # Main Text
     3f7d4197-4e68-40ca-86ca-c0357cdb4628: Images # Images
+    4a2016f3-492d-48ba-9151-ace296a6813d: 'Lyric Index' # Lyric Index
     4e47dfa9-5dcc-4870-a8d3-e75ae50d2937: Bait # Bait
     6b281e7a-2b6a-4385-bc47-3bc3a1d99412: 'Nyanyian Surga' # Nyanyian Surga
     6fd76c91-7ce2-47cd-955b-087dcd2c81c4: Kidung # Kidung
@@ -28,6 +29,7 @@ meta:
     51157094-ba33-4073-80b7-6bc155de0539: Lagu # Lagu
     a185f2b9-54ad-4fb8-b82b-af8804730d7e: Lyric # Lyric
     b6ca8d73-b9b5-4005-a13d-84a010bdf932: Lagu # Lagu
+    bfe5eeeb-2ebc-4794-9cd0-d61e842bcfd9: 'Lyric Index' # Lyric Index
     c00caedc-9fc8-43d8-8e02-26a586934f07: Nomor # Nomor
     c070fb45-2321-447d-961a-6baf7e632d60: Banner # Banner
     ccffd80f-89dd-4393-8eed-9d59c74e6455: 'Secondary Text' # Secondary Text

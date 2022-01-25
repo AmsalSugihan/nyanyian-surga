@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: lyricIndex
+name: 'Lyric Index'
+propagationMethod: all
+siteSettings:
+  9186e763-3071-416b-aa22-77e22be0bb2d: # Nyanyian Surga
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: explore
+type: single

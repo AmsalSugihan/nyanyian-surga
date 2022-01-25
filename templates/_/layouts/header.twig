@@ -1,0 +1,26 @@
+{% set lyricIndex = craft.entries.section('lyricIndex').one().url %}
+
+<nav class="navbar navbar-expand-lg center-nav transparent navbar-light">
+  <div class="container flex-lg-row flex-nowrap align-items-center">
+    <div class="navbar-brand w-100">
+      <a href="{{siteUrl}}">
+        <img src="{{siteUrl}}/assets/img/logo.png" srcset="{{siteUrl}}/assets/img/logo@2x.png 2x" alt="" />
+      </a>
+    </div>
+    <div class="navbar-collapse w-100">
+        <form class="search-form">
+            <div class="form-floating">
+                <input id="search-form" type="text" class="form-control" placeholder="Search"/>
+                <label for="search-form">Search Lyrics</label>
+            </div>
+        </form>
+    </div>
+    <div class="navbar-other offcanvas-nav w-100 d-flex ms-auto">
+      <ul class="navbar-nav flex-row align-items-center ms-auto" data-sm-skip="true">
+        <li class="nav-item dropdown language-select">
+          <a href="{{lyricIndex}}" class="btn btn-sm btn-primary rounded-pill">Top Lyrics</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -4176,8 +4176,18 @@ textarea.form-control-lg {
 
 .form-floating>.form-control,
 .form-floating>.form-select {
+  width: 800px;
   height: calc(2.5rem + 2px);
   line-height: 1.25;
+}
+
+@media (max-width: 576px) {
+  .form-floating>.form-control,
+  .form-floating>.form-select {
+    width: 300px;
+    height: calc(2.5rem + 2px);
+    line-height: 1.25;
+  }
 }
 
 .form-floating>label {
@@ -8171,6 +8181,14 @@ textarea.form-control.is-invalid {
 
 .w-100 {
   width: 100% !important;
+}
+
+.hd-10 {
+  width: 10% !important;
+}
+
+.hd-80 {
+  width: 80% !important;
 }
 
 .w-auto {
